@@ -1,0 +1,11 @@
+name: Surrender
+version: '${project.version}'
+main: net.daechler.surrender.Surrender
+api-version: 1.19
+authors: [Daechler]
+description: Surrender yourself
+commands:
+  surrender:
+    description: Permission to use /surrender
+    usage: /surrender <name>
+    permission: surrender.use
